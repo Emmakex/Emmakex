@@ -136,10 +136,8 @@ I'm open to collaborating on **software, applied AI, automation, integrations, e
 
 <div align="center">
 
-### GitHub
+### GitHub Profile
 
-![Eduardo's GitHub stats](https://github-readme-stats.vercel.app/api?username=Emmakex&show_icons=true&hide_border=true&rank_icon=github)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Emmakex&layout=compact&hide_border=true)
+[![GitHub](https://img.shields.io/badge/View%20my%20repositories-Emmakex-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Emmakex?tab=repositories)
 
 </div>
