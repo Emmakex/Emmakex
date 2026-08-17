@@ -32,7 +32,7 @@ Actualmente desarrollo soluciones para proyectos B2B y B2C, con especial foco en
 - 🔌 **APIs e integraciones** — REST, SOAP, webhooks, CRM, ERP, pasarelas de pago y sistemas de terceros.
 - 🧠 **Backend y lógica de negocio** — Node.js, Strapi, PHP y Python.
 - 🛒 **E-commerce** — WordPress, WooCommerce y PrestaShop, incluyendo módulos, plugins e integraciones personalizadas.
-- 🌐 **Frontend** — JavaScript, Vue.js, React, HTML y CSS.
+- 🌐 **Frontend** — JavaScript, Vue.js, React, Next.js, HTML y CSS.
 - 📊 **Datos y marketing digital** — SEO, WPO, analítica, Google Ads, reporting y optimización de conversión.
 - 🧱 **Productos digitales** — herramientas internas, dashboards, plataformas SaaS y soluciones reutilizables para distintos clientes.
 
@@ -45,6 +45,7 @@ Actualmente desarrollo soluciones para proyectos B2B y B2C, con especial foco en
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=fff" alt="Python" />
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=fff" alt="Vue.js" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=000" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=fff" alt="Next.js" />
   <img src="https://img.shields.io/badge/Strapi-4945FF?style=flat&logo=strapi&logoColor=fff" alt="Strapi" />
   <img src="https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=fff" alt="WordPress" />
   <img src="https://img.shields.io/badge/WooCommerce-96588A?style=flat&logo=woocommerce&logoColor=fff" alt="WooCommerce" />
@@ -91,7 +92,7 @@ I currently build solutions for B2B and B2C projects, with a strong focus on **a
 - 🔌 **APIs & integrations** — REST, SOAP, webhooks, CRM, ERP, payment platforms, and third-party systems.
 - 🧠 **Backend & business logic** — Node.js, Strapi, PHP, and Python.
 - 🛒 **E-commerce** — WordPress, WooCommerce, and PrestaShop, including custom plugins, modules, and integrations.
-- 🌐 **Frontend** — JavaScript, Vue.js, React, HTML, and CSS.
+- 🌐 **Frontend** — JavaScript, Vue.js, React, Next.js, HTML, and CSS.
 - 📊 **Data & digital marketing** — SEO, WPO, analytics, Google Ads, reporting, and conversion optimization.
 - 🧱 **Digital products** — internal tools, dashboards, SaaS platforms, and reusable solutions for multiple clients.
 
@@ -104,6 +105,7 @@ I currently build solutions for B2B and B2C projects, with a strong focus on **a
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=fff" alt="Python" />
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=fff" alt="Vue.js" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=000" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=fff" alt="Next.js" />
   <img src="https://img.shields.io/badge/Strapi-4945FF?style=flat&logo=strapi&logoColor=fff" alt="Strapi" />
   <img src="https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=fff" alt="WordPress" />
   <img src="https://img.shields.io/badge/WooCommerce-96588A?style=flat&logo=woocommerce&logoColor=fff" alt="WooCommerce" />
