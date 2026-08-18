@@ -2,7 +2,7 @@
 
 # Hi, I'm Eduardo Yauri 👋
 
-### Full-Stack Development · AI & Automation · Software Integrations · Digital Commerce
+### Full-Stack Development · AI & Research · Automation · Enterprise Integrations · Digital Commerce
 
 📍 Barcelona, Spain
 
@@ -23,7 +23,7 @@
 
 Soy **Eduardo Yauri**, desarrollador y consultor digital especializado en plataformas web, automatización, inteligencia artificial, integraciones de software y comercio electrónico.
 
-Combino desarrollo técnico y visión de negocio: arquitectura de aplicaciones, APIs e integraciones, automatización de procesos, e-commerce, analítica digital y productos reutilizables.
+Combino desarrollo técnico y visión de negocio: arquitectura de aplicaciones, APIs e integraciones, automatización de procesos, e-commerce, analítica digital y construcción de productos reutilizables.
 
 ### ⭐ Proyectos destacados
 
@@ -31,19 +31,19 @@ Combino desarrollo técnico y visión de negocio: arquitectura de aplicaciones, 
 
 Ecosistema open-source de investigación aplicada para estudiar cómo los sistemas de IA generativa descubren, seleccionan, citan, resumen y recomiendan información digital.
 
-GSLHub separa **plataforma**, **metodología científica**, **benchmarks**, **software reutilizable** y documentación para mantener trazabilidad y reproducibilidad.
+GSLHub separa **plataforma**, **metodología científica**, **benchmarks**, **software reutilizable** y documentación para mantener trazabilidad, auditabilidad y reproducibilidad.
 
 **Stack:** Next.js 16 · TypeScript · React 19 · Payload CMS · MongoDB Atlas · Tailwind CSS · Node.js · GitHub Actions
 
 **Repositorios:** [Platform](https://github.com/gslhub/website) · [Research](https://github.com/gslhub/research) · [Benchmarks](https://github.com/gslhub/benchmarks) · [Software](https://github.com/gslhub/software) · [Docs](https://github.com/gslhub/docs)
 
-[`@gslhub/metrics-core`](https://github.com/gslhub/software/tree/main/packages/metrics-core) implementa **AIR, CR, MCP y RCR** como métricas reutilizables y deterministas.
+[`@gslhub/metrics-core`](https://github.com/gslhub/software/tree/main/packages/metrics-core) implementa **AIR, CR, MCP y RCR** como métricas reutilizables, deterministas y auditables.
 
 #### [Open Travel Platform](https://github.com/Emmakex/open-travel-platform)
 
-Starter **MIT open source, clean-room y desacoplado de proveedores** para agencias de viajes, tour operadores y productos de reserva.
+Starter **MIT open source, clean-room y desacoplado de proveedores** para agencias de viajes, turoperadores y productos de reserva.
 
-La versión **1.0.0** incluye catálogo, buscador y filtros, cuentas de cliente, disponibilidad, reservas, panel de operador/admin, RBAC server-side, transiciones de estado y auditoría. La arquitectura separa `TravelRepository`, `IdentityRepository`, `BookingRepository` y `OperationsRepository`, permitiendo reemplazar los adapters demo por APIs, CMS, CRM/ERP, motores de reservas o proveedores reales.
+La versión **1.0.0** incluye catálogo, búsqueda y filtros, cuentas de cliente, disponibilidad, reservas, panel de operador/admin, RBAC server-side, transiciones de estado y auditoría. La arquitectura separa `TravelRepository`, `IdentityRepository`, `BookingRepository` y `OperationsRepository`, permitiendo reemplazar los adapters demo por APIs, CMS, CRM/ERP, motores de reservas o proveedores reales.
 
 **Stack:** Next.js 16.3.1 · React 19.2.8 · TypeScript 6 · Node.js 24 · GitHub Actions · MIT
 
@@ -52,14 +52,27 @@ La versión **1.0.0** incluye catálogo, buscador y filtros, cuentas de cliente,
 [![Open Travel Platform](https://img.shields.io/badge/Open%20Travel%20Platform-v1.0.0-181717?style=for-the-badge&logo=github)](https://github.com/Emmakex/open-travel-platform)
 [![MIT](https://img.shields.io/badge/License-MIT-45d6b5?style=for-the-badge)](https://github.com/Emmakex/open-travel-platform/blob/main/LICENSE)
 
+#### [Integration Gateway](https://github.com/Emmakex/integration-gateway)
+
+Gateway **TypeScript, MIT y orientado a integraciones empresariales** para conectar APIs REST, webhooks firmados, servicios SOAP/XML y procesos asíncronos sin acoplar el núcleo a un proveedor concreto.
+
+La versión **1.0.0** implementa webhooks HMAC-SHA256 con idempotencia y audit trail, conectores REST con clasificación de fallos y retries acotados, SOAP 1.1/1.2 con parsing XML seguro, jobs en segundo plano, dead-letter, replay y métricas operativas de referencia. La arquitectura usa puertos, adapters, services y executors explícitos para separar transporte, dominio y proveedores externos.
+
+**Stack:** Node.js 24 · TypeScript 6.0.3 · Fastify 5.10.0 · fast-xml-parser 5.10.1 · GitHub Actions · MIT
+
+**Calidad:** `npm ci` reproducible · safety scanner · 19 tests · strict TypeScript · production build · HTTP smoke suite · dependency audit
+
+[![Integration Gateway](https://img.shields.io/badge/Integration%20Gateway-v1.0.0-181717?style=for-the-badge&logo=github)](https://github.com/Emmakex/integration-gateway)
+[![MIT](https://img.shields.io/badge/License-MIT-45d6b5?style=for-the-badge)](https://github.com/Emmakex/integration-gateway/blob/main/LICENSE)
+
 ### 🧩 En qué trabajo
 
-- 🤖 **IA y automatización** — asistentes, bots, flujos inteligentes y automatización de procesos.
-- 🔌 **APIs e integraciones** — REST, SOAP, webhooks, CRM, ERP, pagos y sistemas externos.
-- 🧠 **Backend y arquitectura** — Node.js, Strapi, Payload CMS, PHP, Python y diseño por adapters.
+- 🤖 **IA e investigación aplicada** — sistemas generativos, GEO, evaluación, asistentes y flujos inteligentes.
+- 🔌 **APIs e integraciones** — REST, SOAP/XML, webhooks, CRM, ERP, pagos, idempotencia, retries y sistemas externos.
+- 🧠 **Backend y arquitectura** — Node.js, Fastify, Strapi, Payload CMS, PHP, Python y diseño por adapters/ports.
 - 🛒 **E-commerce** — WordPress, WooCommerce y PrestaShop con plugins, módulos e integraciones personalizadas.
 - 🌐 **Frontend** — JavaScript, TypeScript, Vue.js, React, Next.js, HTML y CSS.
-- 🗄️ **Datos** — MongoDB, MySQL, reporting y analítica.
+- 🗄️ **Datos** — MongoDB, MySQL, reporting, analítica y flujos gobernados de datos.
 - 📊 **Marketing tecnológico** — SEO, GEO, WPO, analítica, Google Ads y conversión.
 
 ### 🛠️ Tecnologías
@@ -68,6 +81,7 @@ La versión **1.0.0** incluye catálogo, buscador y filtros, cuentas de cliente,
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=fff" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Fastify-000000?style=flat&logo=fastify&logoColor=fff" alt="Fastify" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=fff" alt="Python" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=fff" alt="PHP" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=000" alt="React" />
@@ -85,7 +99,7 @@ La versión **1.0.0** incluye catálogo, buscador y filtros, cuentas de cliente,
 
 ### 🤝 Colaboración
 
-Abierto a colaborar en **software, IA aplicada, automatización, integraciones, e-commerce, investigación tecnológica y transformación digital**.
+Abierto a colaborar en **software, IA aplicada, automatización, integraciones empresariales, e-commerce, investigación tecnológica y transformación digital**.
 
 📫 [LinkedIn](https://www.linkedin.com/in/eduardoyauriluna/) · [emmake.com](https://www.emmake.com/) · [GitHub](https://github.com/Emmakex)
 
@@ -97,7 +111,7 @@ Abierto a colaborar en **software, IA aplicada, automatización, integraciones, 
 
 I'm **Eduardo Yauri**, a developer and digital consultant focused on web platforms, automation, artificial intelligence, software integrations and digital commerce.
 
-I combine technical implementation with business thinking across application architecture, APIs and integrations, process automation, e-commerce, analytics and reusable products.
+I combine technical implementation with business thinking across application architecture, APIs and integrations, process automation, e-commerce, analytics and reusable product development.
 
 ### ⭐ Featured projects
 
@@ -111,7 +125,7 @@ GSLHub separates the **technology platform**, **scientific methodology**, **benc
 
 **Repositories:** [Platform](https://github.com/gslhub/website) · [Research](https://github.com/gslhub/research) · [Benchmarks](https://github.com/gslhub/benchmarks) · [Software](https://github.com/gslhub/software) · [Docs](https://github.com/gslhub/docs)
 
-[`@gslhub/metrics-core`](https://github.com/gslhub/software/tree/main/packages/metrics-core) provides reusable deterministic implementations of **AIR, CR, MCP and RCR**.
+[`@gslhub/metrics-core`](https://github.com/gslhub/software/tree/main/packages/metrics-core) provides reusable deterministic and auditable implementations of **AIR, CR, MCP and RCR**.
 
 #### [Open Travel Platform](https://github.com/Emmakex/open-travel-platform)
 
@@ -126,14 +140,27 @@ Version **1.0.0** includes catalogue/search, customer accounts, availability, re
 [![Open Travel Platform](https://img.shields.io/badge/Open%20Travel%20Platform-v1.0.0-181717?style=for-the-badge&logo=github)](https://github.com/Emmakex/open-travel-platform)
 [![MIT](https://img.shields.io/badge/License-MIT-45d6b5?style=for-the-badge)](https://github.com/Emmakex/open-travel-platform/blob/main/LICENSE)
 
+#### [Integration Gateway](https://github.com/Emmakex/integration-gateway)
+
+A **MIT-licensed, provider-neutral TypeScript integration gateway** for REST APIs, signed webhooks, SOAP/XML services and asynchronous enterprise workflows.
+
+Version **1.0.0** includes HMAC-SHA256 webhooks with idempotency and audit trail, outbound REST connectors with failure classification and bounded retries, SOAP 1.1/1.2 with safe XML parsing, background jobs, dead-letter, replay and reference operational metrics. Explicit ports, adapters, services and executors keep transport, domain logic and external providers separated.
+
+**Stack:** Node.js 24 · TypeScript 6.0.3 · Fastify 5.10.0 · fast-xml-parser 5.10.1 · GitHub Actions · MIT
+
+**Quality:** reproducible `npm ci` · safety scanner · 19 tests · strict TypeScript · production build · HTTP smoke suite · dependency audit
+
+[![Integration Gateway](https://img.shields.io/badge/Integration%20Gateway-v1.0.0-181717?style=for-the-badge&logo=github)](https://github.com/Emmakex/integration-gateway)
+[![MIT](https://img.shields.io/badge/License-MIT-45d6b5?style=for-the-badge)](https://github.com/Emmakex/integration-gateway/blob/main/LICENSE)
+
 ### 🧩 What I work on
 
-- 🤖 **AI & automation** — assistants, bots, intelligent workflows and process automation.
-- 🔌 **APIs & integrations** — REST, SOAP, webhooks, CRM, ERP, payments and external systems.
-- 🧠 **Backend & architecture** — Node.js, Strapi, Payload CMS, PHP, Python and adapter-based design.
+- 🤖 **AI & applied research** — generative systems, GEO, evaluation, assistants and intelligent workflows.
+- 🔌 **APIs & integrations** — REST, SOAP/XML, webhooks, CRM, ERP, payments, idempotency, retries and external systems.
+- 🧠 **Backend & architecture** — Node.js, Fastify, Strapi, Payload CMS, PHP, Python and adapter/port-based design.
 - 🛒 **E-commerce** — WordPress, WooCommerce and PrestaShop with custom plugins, modules and integrations.
 - 🌐 **Frontend** — JavaScript, TypeScript, Vue.js, React, Next.js, HTML and CSS.
-- 🗄️ **Data** — MongoDB, MySQL, reporting and analytics.
+- 🗄️ **Data** — MongoDB, MySQL, reporting, analytics and governed data workflows.
 - 📊 **Technical marketing** — SEO, GEO, WPO, analytics, Google Ads and conversion optimization.
 
 ### 🛠️ Tech stack
@@ -142,6 +169,7 @@ Version **1.0.0** includes catalogue/search, customer accounts, availability, re
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=fff" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Fastify-000000?style=flat&logo=fastify&logoColor=fff" alt="Fastify" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=fff" alt="Python" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=fff" alt="PHP" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=000" alt="React" />
@@ -159,7 +187,7 @@ Version **1.0.0** includes catalogue/search, customer accounts, availability, re
 
 ### 🤝 Collaboration
 
-Open to collaborating on **software, applied AI, automation, integrations, e-commerce, technology research and digital transformation**.
+Open to collaborating on **software, applied AI, automation, enterprise integrations, e-commerce, technology research and digital transformation**.
 
 📫 [LinkedIn](https://www.linkedin.com/in/eduardoyauriluna/) · [emmake.com](https://www.emmake.com/) · [GitHub](https://github.com/Emmakex)
 
