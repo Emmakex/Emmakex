@@ -21,50 +21,46 @@
 
 ### Sobre mí
 
-Soy **Eduardo Yauri**, desarrollador y consultor digital especializado en la creación de soluciones web, automatización, inteligencia artificial, integraciones de software y comercio electrónico.
+Soy **Eduardo Yauri**, desarrollador y consultor digital especializado en plataformas web, automatización, inteligencia artificial, integraciones de software y comercio electrónico.
 
-Mi trabajo combina desarrollo técnico y visión de negocio: desde APIs, backends e integraciones con sistemas externos hasta plataformas e-commerce, automatización de procesos, asistentes con IA, analítica digital y optimización de conversión.
+Combino desarrollo técnico y visión de negocio: arquitectura de aplicaciones, APIs e integraciones, automatización de procesos, e-commerce, analítica digital y productos reutilizables.
 
-Actualmente desarrollo soluciones B2B y B2C con especial foco en **automatización, integraciones, IA aplicada, plataformas web y productos digitales reutilizables**.
-
-### ⭐ Proyecto destacado
+### ⭐ Proyectos destacados
 
 #### [GSLHub — Generative Search Lab Hub](https://github.com/gslhub)
 
 Ecosistema open-source de investigación aplicada para estudiar cómo los sistemas de IA generativa descubren, seleccionan, citan, resumen y recomiendan información digital.
 
-GSLHub separa la **plataforma tecnológica**, la **metodología científica**, las **especificaciones de benchmark** y el **software reutilizable** para mantener trazabilidad, reproducibilidad y versionado independiente.
+GSLHub separa **plataforma**, **metodología científica**, **benchmarks**, **software reutilizable** y documentación para mantener trazabilidad y reproducibilidad.
 
 **Stack:** Next.js 16 · TypeScript · React 19 · Payload CMS · MongoDB Atlas · Tailwind CSS · Node.js · GitHub Actions
 
-**Áreas:** Generative Search · GEO · IA · investigación reproducible · evidencia gobernada · métricas científicas · arquitectura web · CI/CD
+**Repositorios:** [Platform](https://github.com/gslhub/website) · [Research](https://github.com/gslhub/research) · [Benchmarks](https://github.com/gslhub/benchmarks) · [Software](https://github.com/gslhub/software) · [Docs](https://github.com/gslhub/docs)
 
-**Repositorios públicos:**
-[Platform](https://github.com/gslhub/website) ·
-[Research](https://github.com/gslhub/research) ·
-[Benchmarks](https://github.com/gslhub/benchmarks) ·
-[Software](https://github.com/gslhub/software) ·
-[Docs](https://github.com/gslhub/docs)
+[`@gslhub/metrics-core`](https://github.com/gslhub/software/tree/main/packages/metrics-core) implementa **AIR, CR, MCP y RCR** como métricas reutilizables y deterministas.
 
-El primer paquete reutilizable, [`@gslhub/metrics-core`](https://github.com/gslhub/software/tree/main/packages/metrics-core), implementa de forma independiente las métricas **AIR, CR, MCP y RCR** con validación determinista y checksums SHA-256.
+#### [Open Travel Platform](https://github.com/Emmakex/open-travel-platform)
 
-[![GSLHub Platform](https://img.shields.io/badge/GSLHub-Platform-181717?style=for-the-badge&logo=github)](https://github.com/gslhub/website)
-[![Research](https://img.shields.io/badge/Open-Research-2563EB?style=for-the-badge)](https://github.com/gslhub/research)
-[![Software](https://img.shields.io/badge/Research-Software-7C3AED?style=for-the-badge)](https://github.com/gslhub/software)
+Starter **MIT open source, clean-room y desacoplado de proveedores** para agencias de viajes, tour operadores y productos de reserva.
 
-### 🚀 Portfolio en ampliación
+La versión **1.0.0** incluye catálogo, buscador y filtros, cuentas de cliente, disponibilidad, reservas, panel de operador/admin, RBAC server-side, transiciones de estado y auditoría. La arquitectura separa `TravelRepository`, `IdentityRepository`, `BookingRepository` y `OperationsRepository`, permitiendo reemplazar los adapters demo por APIs, CMS, CRM/ERP, motores de reservas o proveedores reales.
 
-Estoy reorganizando y documentando progresivamente proyectos propios de **IA, automatización, integraciones, e-commerce y plataformas web**. Los repositorios con código de clientes, credenciales, datos privados o propiedad intelectual de terceros permanecen privados hasta completar su revisión y, cuando corresponde, preparar una versión pública saneada.
+**Stack:** Next.js 16.3.1 · React 19.2.8 · TypeScript 6 · Node.js 24 · GitHub Actions · MIT
+
+**Calidad:** source-safety checks · TypeScript · production build · HTTP smoke tests · dependency audit
+
+[![Open Travel Platform](https://img.shields.io/badge/Open%20Travel%20Platform-v1.0.0-181717?style=for-the-badge&logo=github)](https://github.com/Emmakex/open-travel-platform)
+[![MIT](https://img.shields.io/badge/License-MIT-45d6b5?style=for-the-badge)](https://github.com/Emmakex/open-travel-platform/blob/main/LICENSE)
 
 ### 🧩 En qué trabajo
 
-- 🤖 **IA y automatización** — asistentes virtuales, bots, flujos inteligentes y automatización de procesos.
-- 🔌 **APIs e integraciones** — REST, SOAP, webhooks, CRM, ERP, pasarelas de pago y sistemas de terceros.
-- 🧠 **Backend y lógica de negocio** — Node.js, Strapi, Payload CMS, PHP y Python.
-- 🛒 **E-commerce** — WordPress, WooCommerce y PrestaShop, incluyendo módulos, plugins e integraciones personalizadas.
+- 🤖 **IA y automatización** — asistentes, bots, flujos inteligentes y automatización de procesos.
+- 🔌 **APIs e integraciones** — REST, SOAP, webhooks, CRM, ERP, pagos y sistemas externos.
+- 🧠 **Backend y arquitectura** — Node.js, Strapi, Payload CMS, PHP, Python y diseño por adapters.
+- 🛒 **E-commerce** — WordPress, WooCommerce y PrestaShop con plugins, módulos e integraciones personalizadas.
 - 🌐 **Frontend** — JavaScript, TypeScript, Vue.js, React, Next.js, HTML y CSS.
-- 🗄️ **Datos** — MongoDB, MySQL y sistemas de reporting.
-- 📊 **Marketing tecnológico** — SEO, GEO, WPO, analítica, Google Ads y optimización de conversión.
+- 🗄️ **Datos** — MongoDB, MySQL, reporting y analítica.
+- 📊 **Marketing tecnológico** — SEO, GEO, WPO, analítica, Google Ads y conversión.
 
 ### 🛠️ Tecnologías
 
@@ -81,19 +77,17 @@ Estoy reorganizando y documentando progresivamente proyectos propios de **IA, au
   <img src="https://img.shields.io/badge/Strapi-4945FF?style=flat&logo=strapi&logoColor=fff" alt="Strapi" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=fff" alt="MongoDB" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=fff" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=fff" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=fff" alt="WordPress" />
   <img src="https://img.shields.io/badge/WooCommerce-96588A?style=flat&logo=woocommerce&logoColor=fff" alt="WooCommerce" />
   <img src="https://img.shields.io/badge/PrestaShop-DF0067?style=flat&logo=prestashop&logoColor=fff" alt="PrestaShop" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=fff" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=fff" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=fff" alt="GitHub Actions" />
 </p>
 
 ### 🤝 Colaboración
 
-Estoy abierto a colaborar en proyectos de **software, IA aplicada, automatización, integraciones, e-commerce, investigación tecnológica y transformación digital**.
+Abierto a colaborar en **software, IA aplicada, automatización, integraciones, e-commerce, investigación tecnológica y transformación digital**.
 
-📫 **Contacto:** [LinkedIn](https://www.linkedin.com/in/eduardoyauriluna/) · [emmake.com](https://www.emmake.com/) · [GitHub](https://github.com/Emmakex)
+📫 [LinkedIn](https://www.linkedin.com/in/eduardoyauriluna/) · [emmake.com](https://www.emmake.com/) · [GitHub](https://github.com/Emmakex)
 
 ---
 
@@ -101,50 +95,46 @@ Estoy abierto a colaborar en proyectos de **software, IA aplicada, automatizaci�
 
 ### About me
 
-I'm **Eduardo Yauri**, a developer and digital consultant focused on web platforms, automation, artificial intelligence, software integrations, and digital commerce.
+I'm **Eduardo Yauri**, a developer and digital consultant focused on web platforms, automation, artificial intelligence, software integrations and digital commerce.
 
-My work combines technical implementation with business thinking: from APIs, backends, and third-party integrations to e-commerce platforms, process automation, AI assistants, digital analytics, and conversion optimization.
+I combine technical implementation with business thinking across application architecture, APIs and integrations, process automation, e-commerce, analytics and reusable products.
 
-I currently build B2B and B2C solutions with a strong focus on **automation, integrations, applied AI, web platforms, and reusable digital products**.
-
-### ⭐ Featured project
+### ⭐ Featured projects
 
 #### [GSLHub — Generative Search Lab Hub](https://github.com/gslhub)
 
-Open-source applied-research ecosystem for studying how generative AI systems discover, select, cite, summarize, and recommend digital information.
+Open-source applied-research ecosystem for studying how generative AI systems discover, select, cite, summarize and recommend digital information.
 
-GSLHub separates the **technology platform**, **scientific methodology**, **benchmark specifications**, and **reusable research software** so each layer can remain independently versioned, auditable, and reproducible.
+GSLHub separates the **technology platform**, **scientific methodology**, **benchmarks**, **reusable research software** and documentation for independent versioning, auditability and reproducibility.
 
 **Stack:** Next.js 16 · TypeScript · React 19 · Payload CMS · MongoDB Atlas · Tailwind CSS · Node.js · GitHub Actions
 
-**Focus:** Generative Search · GEO · AI · reproducible research · governed evidence · scientific metrics · web architecture · CI/CD
+**Repositories:** [Platform](https://github.com/gslhub/website) · [Research](https://github.com/gslhub/research) · [Benchmarks](https://github.com/gslhub/benchmarks) · [Software](https://github.com/gslhub/software) · [Docs](https://github.com/gslhub/docs)
 
-**Public repositories:**
-[Platform](https://github.com/gslhub/website) ·
-[Research](https://github.com/gslhub/research) ·
-[Benchmarks](https://github.com/gslhub/benchmarks) ·
-[Software](https://github.com/gslhub/software) ·
-[Docs](https://github.com/gslhub/docs)
+[`@gslhub/metrics-core`](https://github.com/gslhub/software/tree/main/packages/metrics-core) provides reusable deterministic implementations of **AIR, CR, MCP and RCR**.
 
-The first reusable package, [`@gslhub/metrics-core`](https://github.com/gslhub/software/tree/main/packages/metrics-core), independently implements **AIR, CR, MCP and RCR** with deterministic validation and SHA-256 checksums.
+#### [Open Travel Platform](https://github.com/Emmakex/open-travel-platform)
 
-[![GSLHub Platform](https://img.shields.io/badge/GSLHub-Platform-181717?style=for-the-badge&logo=github)](https://github.com/gslhub/website)
-[![Research](https://img.shields.io/badge/Open-Research-2563EB?style=for-the-badge)](https://github.com/gslhub/research)
-[![Software](https://img.shields.io/badge/Research-Software-7C3AED?style=for-the-badge)](https://github.com/gslhub/software)
+A **clean-room, MIT-licensed and vendor-neutral** starter for travel agencies, tour operators and booking products.
 
-### 🚀 Portfolio in progress
+Version **1.0.0** includes catalogue/search, customer accounts, availability, reservations, operator/admin workflows, server-side RBAC, validated state transitions and auditing. `TravelRepository`, `IdentityRepository`, `BookingRepository` and `OperationsRepository` keep the application portable across APIs, CMSs, CRM/ERP systems, booking engines and supplier integrations.
 
-I'm progressively documenting and publishing selected work in **AI, automation, integrations, e-commerce, and web platforms**. Repositories containing client code, credentials, private data, or third-party intellectual property remain private until they pass review and, where appropriate, a sanitized public version is prepared.
+**Stack:** Next.js 16.3.1 · React 19.2.8 · TypeScript 6 · Node.js 24 · GitHub Actions · MIT
+
+**Quality:** source-safety checks · TypeScript · production build · HTTP smoke tests · dependency audit
+
+[![Open Travel Platform](https://img.shields.io/badge/Open%20Travel%20Platform-v1.0.0-181717?style=for-the-badge&logo=github)](https://github.com/Emmakex/open-travel-platform)
+[![MIT](https://img.shields.io/badge/License-MIT-45d6b5?style=for-the-badge)](https://github.com/Emmakex/open-travel-platform/blob/main/LICENSE)
 
 ### 🧩 What I work on
 
-- 🤖 **AI & automation** — virtual assistants, bots, intelligent workflows, and process automation.
-- 🔌 **APIs & integrations** — REST, SOAP, webhooks, CRM, ERP, payment platforms, and third-party systems.
-- 🧠 **Backend & business logic** — Node.js, Strapi, Payload CMS, PHP, and Python.
-- 🛒 **E-commerce** — WordPress, WooCommerce, and PrestaShop, including custom plugins, modules, and integrations.
-- 🌐 **Frontend** — JavaScript, TypeScript, Vue.js, React, Next.js, HTML, and CSS.
-- 🗄️ **Data** — MongoDB, MySQL, analytics, and reporting systems.
-- 📊 **Technical marketing** — SEO, GEO, WPO, analytics, Google Ads, and conversion optimization.
+- 🤖 **AI & automation** — assistants, bots, intelligent workflows and process automation.
+- 🔌 **APIs & integrations** — REST, SOAP, webhooks, CRM, ERP, payments and external systems.
+- 🧠 **Backend & architecture** — Node.js, Strapi, Payload CMS, PHP, Python and adapter-based design.
+- 🛒 **E-commerce** — WordPress, WooCommerce and PrestaShop with custom plugins, modules and integrations.
+- 🌐 **Frontend** — JavaScript, TypeScript, Vue.js, React, Next.js, HTML and CSS.
+- 🗄️ **Data** — MongoDB, MySQL, reporting and analytics.
+- 📊 **Technical marketing** — SEO, GEO, WPO, analytics, Google Ads and conversion optimization.
 
 ### 🛠️ Tech stack
 
@@ -161,25 +151,21 @@ I'm progressively documenting and publishing selected work in **AI, automation, 
   <img src="https://img.shields.io/badge/Strapi-4945FF?style=flat&logo=strapi&logoColor=fff" alt="Strapi" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=fff" alt="MongoDB" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=fff" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=fff" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=fff" alt="WordPress" />
   <img src="https://img.shields.io/badge/WooCommerce-96588A?style=flat&logo=woocommerce&logoColor=fff" alt="WooCommerce" />
   <img src="https://img.shields.io/badge/PrestaShop-DF0067?style=flat&logo=prestashop&logoColor=fff" alt="PrestaShop" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=fff" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=fff" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=fff" alt="GitHub Actions" />
 </p>
 
 ### 🤝 Collaboration
 
-I'm open to collaborating on **software, applied AI, automation, integrations, e-commerce, technology research, and digital transformation** projects.
+Open to collaborating on **software, applied AI, automation, integrations, e-commerce, technology research and digital transformation**.
 
-📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/eduardoyauriluna/) · [emmake.com](https://www.emmake.com/) · [GitHub](https://github.com/Emmakex)
+📫 [LinkedIn](https://www.linkedin.com/in/eduardoyauriluna/) · [emmake.com](https://www.emmake.com/) · [GitHub](https://github.com/Emmakex)
 
 ---
 
 <div align="center">
-
-### GitHub Profile
 
 [![GitHub](https://img.shields.io/badge/View%20my%20repositories-Emmakex-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Emmakex?tab=repositories)
 
