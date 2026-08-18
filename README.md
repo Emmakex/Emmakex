@@ -11,6 +11,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Eduardo%20Yauri-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardoyauriluna/)
 [![Website](https://img.shields.io/badge/Web-emmake.com-111111?style=flat&logo=googlechrome&logoColor=white)](https://www.emmake.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-Emmakex-181717?style=flat&logo=github&logoColor=white)](https://github.com/Emmakex)
+[![GSLHub](https://img.shields.io/badge/GSLHub-Generative%20Search%20Lab%20Hub-2563EB?style=flat&logo=github&logoColor=white)](https://github.com/gslhub)
 
 </div>
 
@@ -28,25 +29,32 @@ Actualmente desarrollo soluciones B2B y B2C con especial foco en **automatizaci�
 
 ### ⭐ Proyecto destacado
 
-#### [GSLHub — Generative Search Lab Hub](https://github.com/gslhub/website)
+#### [GSLHub — Generative Search Lab Hub](https://github.com/gslhub)
 
-Plataforma open-source de investigación aplicada para estudiar cómo los sistemas de IA generativa descubren, seleccionan, citan, resumen y recomiendan información digital.
+Ecosistema open-source de investigación aplicada para estudiar cómo los sistemas de IA generativa descubren, seleccionan, citan, resumen y recomiendan información digital.
 
-**Stack:** Next.js 16 · TypeScript · React 19 · Payload CMS · MongoDB Atlas · Tailwind CSS · Node.js
+GSLHub separa la **plataforma tecnológica**, la **metodología científica**, las **especificaciones de benchmark** y el **software reutilizable** para mantener trazabilidad, reproducibilidad y versionado independiente.
+
+**Stack:** Next.js 16 · TypeScript · React 19 · Payload CMS · MongoDB Atlas · Tailwind CSS · Node.js · GitHub Actions
 
 **Áreas:** Generative Search · GEO · IA · investigación reproducible · evidencia gobernada · métricas científicas · arquitectura web · CI/CD
 
-[![GSLHub](https://img.shields.io/badge/View%20GSLHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/gslhub/website)
-[![AGPL](https://img.shields.io/badge/License-AGPL--3.0-blue?style=for-the-badge)](https://github.com/gslhub/website/blob/main/LICENSE)
+**Repositorios públicos:**
+[Platform](https://github.com/gslhub/website) ·
+[Research](https://github.com/gslhub/research) ·
+[Benchmarks](https://github.com/gslhub/benchmarks) ·
+[Software](https://github.com/gslhub/software) ·
+[Docs](https://github.com/gslhub/docs)
 
-### 🚀 Otros proyectos seleccionados
+El primer paquete reutilizable, [`@gslhub/metrics-core`](https://github.com/gslhub/software/tree/main/packages/metrics-core), implementa de forma independiente las métricas **AIR, CR, MCP y RCR** con validación determinista y checksums SHA-256.
 
-#### [Viajes a Medida](https://github.com/Emmakex/viajes)
-Aplicación web full-stack para descubrimiento y gestión de destinos, autenticación de usuarios y experiencias de viaje.
+[![GSLHub Platform](https://img.shields.io/badge/GSLHub-Platform-181717?style=for-the-badge&logo=github)](https://github.com/gslhub/website)
+[![Research](https://img.shields.io/badge/Open-Research-2563EB?style=for-the-badge)](https://github.com/gslhub/research)
+[![Software](https://img.shields.io/badge/Research-Software-7C3AED?style=for-the-badge)](https://github.com/gslhub/software)
 
-**Stack:** Next.js · React · NextAuth · REST API · Tailwind CSS · Formik/Yup · SWR · Framer Motion
+### 🚀 Portfolio en ampliación
 
-> Estoy reorganizando mi GitHub para documentar y publicar progresivamente proyectos de IA, automatización, integraciones y e-commerce sin exponer código o datos confidenciales de clientes.
+Estoy reorganizando y documentando progresivamente proyectos propios de **IA, automatización, integraciones, e-commerce y plataformas web**. Los repositorios con código de clientes, credenciales, datos privados o propiedad intelectual de terceros permanecen privados hasta completar su revisión y, cuando corresponde, preparar una versión pública saneada.
 
 ### 🧩 En qué trabajo
 
@@ -101,25 +109,32 @@ I currently build B2B and B2C solutions with a strong focus on **automation, int
 
 ### ⭐ Featured project
 
-#### [GSLHub — Generative Search Lab Hub](https://github.com/gslhub/website)
+#### [GSLHub — Generative Search Lab Hub](https://github.com/gslhub)
 
-Open-source applied-research platform for studying how generative AI systems discover, select, cite, summarize, and recommend digital information.
+Open-source applied-research ecosystem for studying how generative AI systems discover, select, cite, summarize, and recommend digital information.
 
-**Stack:** Next.js 16 · TypeScript · React 19 · Payload CMS · MongoDB Atlas · Tailwind CSS · Node.js
+GSLHub separates the **technology platform**, **scientific methodology**, **benchmark specifications**, and **reusable research software** so each layer can remain independently versioned, auditable, and reproducible.
+
+**Stack:** Next.js 16 · TypeScript · React 19 · Payload CMS · MongoDB Atlas · Tailwind CSS · Node.js · GitHub Actions
 
 **Focus:** Generative Search · GEO · AI · reproducible research · governed evidence · scientific metrics · web architecture · CI/CD
 
-[![GSLHub](https://img.shields.io/badge/View%20GSLHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/gslhub/website)
-[![AGPL](https://img.shields.io/badge/License-AGPL--3.0-blue?style=for-the-badge)](https://github.com/gslhub/website/blob/main/LICENSE)
+**Public repositories:**
+[Platform](https://github.com/gslhub/website) ·
+[Research](https://github.com/gslhub/research) ·
+[Benchmarks](https://github.com/gslhub/benchmarks) ·
+[Software](https://github.com/gslhub/software) ·
+[Docs](https://github.com/gslhub/docs)
 
-### 🚀 Selected projects
+The first reusable package, [`@gslhub/metrics-core`](https://github.com/gslhub/software/tree/main/packages/metrics-core), independently implements **AIR, CR, MCP and RCR** with deterministic validation and SHA-256 checksums.
 
-#### [Custom Travel Platform](https://github.com/Emmakex/viajes)
-Full-stack web application for destination discovery, user authentication, and travel-experience management.
+[![GSLHub Platform](https://img.shields.io/badge/GSLHub-Platform-181717?style=for-the-badge&logo=github)](https://github.com/gslhub/website)
+[![Research](https://img.shields.io/badge/Open-Research-2563EB?style=for-the-badge)](https://github.com/gslhub/research)
+[![Software](https://img.shields.io/badge/Research-Software-7C3AED?style=for-the-badge)](https://github.com/gslhub/software)
 
-**Stack:** Next.js · React · NextAuth · REST API · Tailwind CSS · Formik/Yup · SWR · Framer Motion
+### 🚀 Portfolio in progress
 
-> I'm reorganizing my GitHub to progressively document and publish selected AI, automation, integration, and e-commerce projects without exposing confidential client code or data.
+I'm progressively documenting and publishing selected work in **AI, automation, integrations, e-commerce, and web platforms**. Repositories containing client code, credentials, private data, or third-party intellectual property remain private until they pass review and, where appropriate, a sanitized public version is prepared.
 
 ### 🧩 What I work on
 
